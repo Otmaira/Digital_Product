@@ -1,0 +1,36 @@
+/* por debajo de los 600 píxeles activa todas estas reglas en mi html
+Esto es para una pantalla en el móvil*/
+@media (max-width: 600px) {
+
+  /* para que los productos no choquen con los bordes en la sección de productos ya no se
+  organizan de forma horizontal sino de forma vertival y para ello se quita la propiedad
+  display: flex;  y se coloca lo siguiente a continuación. También aplica para las demás
+  propiedades
+  */
+  .productos{
+    /* display: inherit;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section{
+    padding: 3%;
+  }
+
+  .section_2, .section_3, .section_4{
+    /* display: inherit; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .more{
+    margin-top: auto;
+  }
+}

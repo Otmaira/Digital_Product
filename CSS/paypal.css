@@ -1,0 +1,14 @@
+/* puedo utilizar las variables porque el css estilos
+se llama en el html antes de paypal.css*/
+body{
+  background-color: var(--lightpurple2-color);
+  text-align: center;
+  color: var(--lightpurple4-color);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content_paypal a{
+  color: var(--lightpurple2-color);
+}

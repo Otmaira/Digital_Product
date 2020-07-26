@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- es importante el orden en que se coloca el llamado a utilizar los archivos.CSS para que no
+    se pisen entre sí las reglas que se han definido -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>Puppies&More</title>
+  </head>
+  <body>
+    <!-- Aquí empieza el navbar -->
+    <nav class="fadeInDown">
+      <div class="puppies_image">
+        <a title="Puppies&More" href="index.html"><img src="images/logo2.png" alt="Puppies&More" /></a>
+      </div>
+      <div class="nav_options"></div>
+        <ul>
+          <li><a href="index.html">FAQS</a></li>
+          <li><a href="producto.html">PRODUCTS & DESCRIPTIONS</a></li>
+        </ul>
+    </nav>
+    <!-- Aquí acaba el navbar -->
+    <div class="bg">
+      <div class="container">
+        <div class="choose">
+          <h1>¿Cuál producto prefieres?</h1>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <a title="Puppies&More" href="venta.html"><img src="images/kbc2.png" alt="Puppies&More" /></a>
+          </div>
+          <div class="col-8">
+            <div class="ch1">
+              <h1>Cesta de Mimbre</h1>
+              <p>Este carrito con cesta de mimbre brindará horas de diversión a ti y a tu cachorro.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="ch2">
+              <h1>Scooter</h1>
+              <p>Maravilloso método de transporte para tu cachorro en diferentes modelos y colores.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <a title="Puppies&More" href="venta.html"><img src="images/kbc3.png" alt="Puppies&More" /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <a title="Puppies&More" href="venta.html"><img src="images/kbc4.png" alt="Puppies&More" /></a>
+          </div>
+          <div class="col-8">
+            <div class="ch3">
+              <h1>Alimentación</h1>
+              <p>Contamos con una amplia gama de productos alimenticios que tu mejor amigo necesita para estar sano.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="ch4">
+              <h1>Celebra</h1>
+              <p>Se aproxima una fecha importante? Tenemos todo lo que necesitas para inmortalizar ese momento.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <a title="Puppies&More" href="venta.html"><img src="images/kbc5.png" alt="Puppies&More" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Js/scripts.js" charset="utf-8"></script>
+  </body>
+  <footer>
+    <div class="Newsletters">
+      <p class="subscribe">NEWSLETTERS</p>
+      <form class="enviar_correo"action="URL_ENVIAR_DATOS">
+        <label for="nombre">Nombre</label>
+        <br><input type="text" id="nombre" placeholder="Nombre" name="user_name">
+        <br><label for="edad">Correo</label>
+        <br><input type="text" id="mail" placeholder="example@mail.com" name="user_mail">
+        <br><button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="terms">
+      <p>Términos y Condiciones</p>
+    </div>
+    <div class="mail"><a href="mailto:contacto@mail.com">contacto@mail.com</a>
+    </div>
+  </footer>
+</html>

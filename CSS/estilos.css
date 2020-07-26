@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* ------------- variables*/
+:root{
+--lightblue-color: #26F2FF;
+--lightpurple-color: #634981;
+--lightpurple2-color: #9D85BA;
+--lightpurple3-color: white;
+--lightpurple4-color:  #47345D;
+/* Tipografría*/
+--normal:12px;
+/* Espaciado*/
+--space:10px;
+/* Box Shadow */
+--box:0px 0 2px 1px #e6e5e9;
+
+}
+
+
+/* ------------- variables*/
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;   /* yo */
+}
+
+p, label{
+  font-size: normal;
+}
+
+nav{
+  display: flex;
+  background-color: var(--lightblue-color);
+  padding: 10px;
+  color: var(--lightpurple-color);
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+nav li a {
+  color: var(--lightpurple-color);
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--lightpurple2-color);
+  text-decoration: none;
+}
+.puppies_image img{
+  max-width: 100px;
+  width: 100%;
+}
+
+
+/*  -------------------  main section */
+
+.main_section{
+  padding: 5%;  /* se quita para que mobile.css tome el control */
+  text-align: center;
+}
+
+.main_section h1{
+  color: var(--lightpurple2-color);
+  font-size: 40px;
+}
+
+.productos{
+  display: flex; /* se quita para que mobile.css tome el control */
+  padding: 28%; /* 28%; */
+  background-image: url("../images/R12x2.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  height: 95px;  /*50px;  /* se quita para que mobile.css tome el control */
+
+}
+
+.product{
+  padding: 10px;
+  margin-top: -400px;  /* se quita para que mobile.css tome el control */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product .content{
+  /*background-color: black;   /* yo cambié el color*/
+  opacity: 100%;
+  padding: 10px;
+  /*box-shadow: 0 0 2px black;*/
+  width: 300px;
+}
+
+.img_content{
+  text-align: center;
+}
+
+.content h1{    /* yo */
+  text-align: center;
+  color: var(--lightpurple4-color);
+  font-size: 30px;
+}
+
+.content p{    /* yo */
+  color: var(--lightpurple4-color);
+  font-size: 15px;
+}
+
+.main_button{
+  background-color: var(--lightpurple4-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--lightblue-color);
+  border: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main_button:hover{
+  background-color: var(--lightblue-color);
+  color: var(--lightpurple4-color);
+}
+
+.section_2{
+  padding: 10%;
+  display: flex;   /* se quita para que mobile.css tome el control */
+}
+
+.more{
+  padding: 15px;
+  margin-top: -350px;  /* se quita para que mobile.css tome el control */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.more .content{
+  opacity: 100%;
+  padding: 5px;
+  width: 400px;
+  text-align: center;
+}
+
+.more .content h1:hover{
+  color: var(--lightpurple2-color);
+}
+
+.section_3{
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.Mentions h1{    /* yo */
+  text-align:center;
+  color: var(--lightpurple4-color);
+  font-size: 35px;
+  margin: auto;
+}
+
+.section_4{
+  display: flex;
+  padding: 5%;
+  background-image: url("../images/R12x.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+.mention{
+padding: 10px;
+margin-top: 50px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.mention .content{
+  opacity: 100%;
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.mention .content .img_content img{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px gray;
+}
+
+/* --------------------------------------- FOOTER */
+.mail a{
+  color: var(--lightblue-color);
+}
+.mail a:hover{
+  color: var(--lightpurple2-color);
+  text-decoration: none;
+}
+
+.subscribe{
+  padding: 0px;
+  margin: 0px;
+}
+
+.enviar_correo label{
+  padding: 0px;
+  margin: 0px;
+}
+.enviar_correo button{
+  color: var(--lightpurple4-color);
+  font-size: 10px;
+  font-weight: bolder;
+  background-color: var(--lightblue-color);
+  padding: 3px;
+  border-color: #C0C0C0;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.enviar_correo button:hover{
+  color: var(--lightblue-color);
+  background-color: var(--lightpurple2-color);
+}
+
+footer{
+  background-color: var(--lightpurple4-color);
+  color: var(--lightblue-color);
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* --------------------------------------- FOOTER */
+
+/* --------------------------------------- PRODUCTO */
+.choose{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: var(--lightpurple2-color);
+}
+
+.choose h1{
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bolder;
+}
+.ch1, .ch2, .ch3, .ch4{
+  margin-top: 15%;
+  color: var(--lightpurple4-color);
+  font-weight: bolder;
+}
+.ch1 h1, .ch2 h1, .ch3 h1, .ch4 h1{
+  font-weight: bold;
+}
+
+.ch1 p, .ch2 p, .ch3 p, .ch4 p{
+    font-size: 15px;
+}
+
+.bg {
+  background-image: url("../images/R12x2.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+/* --------------------------------------- PRODUCTO */
+
+/* --------------------------------------- VENTA */
+.container_venta{
+  background-image: url("../images/R12x2.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modulo_pago_images{
+  text-align: center;
+  margin:auto;
+}
+
+.modulo_pago_images img{
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+}
+
+.modulo_pago{
+  background-color: transparent; /* var(--lightpurple3-color);*/
+  font-weight: bold;
+  box-shadow: 20px /* var(--box);*/
+  color: var(--lightpurple4-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.modulo_pago p{
+  color: var(--lightpurple4-color);
+}
+
+.modulo_pago label{
+  color: var(--lightpurple4-color);
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+      margin-top: 10px;
+}
+
+
+/* ------------------------------- VENTA */
+
+/*#26F2FF;
+#11BCC7;
+#c1bcbc;
+background-image: url("../images/big_logo2.png");
+*/

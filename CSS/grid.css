@@ -1,0 +1,172 @@
+/* ------------- variables*/
+:root{
+--lightblue-color: #26F2FF;
+--lightpurple-color: #634981;
+--lightpurple2-color: #9D85BA;
+--lightpurple3-color: white;
+--lightpurple4-color:  #47345D;
+/* Box Shadow */
+--box:0px 0 2px 1px #e6e5e9;
+
+
+.container{
+  max-width: 900px;
+  margin:auto;
+  color: var(--lightpurple4-color);
+}
+
+/* .bg{
+  background-image: url("../images/R12x.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 95px;
+  background-size: cover;
+} */
+
+/* se encarga de llevar las columnas de manera horizontal */
+.row{
+  display: flex;
+}
+
+/* columnas dentro de los rows */
+.col-1{
+  width: 8.333333333333333%;
+}
+.col-2{
+  width: 16.66666666666667%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33333333333333%;
+}
+.col-5{
+  width: 41.66666666666667%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.33333333333333%;
+}
+.col-8{
+  width: 66.66666666666666%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33333333333333%;
+}
+.col-11{
+  width: 91.66666666666666%;
+}
+.col-12{
+  width: 100%;
+}
+
+.col-1..col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  padding: 10px:
+}
+
+@media (max-width: 900px) {
+  .row{
+    display: inherit;
+  }
+  .col-1..col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    width: 100%:
+  }
+}
+
+
+
+/* container > row > column */
+
+
+/* .pago_container {
+  display: flex;
+  height: 700px;
+  color: white;
+}
+.pago_img_logo{
+  background-image: url("../images/logo.png");
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pago_info_1 {
+  height: 80%;
+  margin: auto 0px;
+  background-color: var(lightpurple2-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 10px10px10px#00000029;
+}
+
+.pago_information {
+  background-color: var(lightpurple4-color);
+  display: flex;
+}
+.pago_carrito {
+  width: 30%;
+  margin-left: 10%;
+  text-align: center;
+  padding: 50px5%;
+  box-sizing: border-box;
+}
+
+.pago_plan {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.pago_precio {
+  width: 90%;
+  margin: 0px auto;
+  font-size: 26px;
+  background-color: var(lightblue-color);
+  padding: 20px20px;
+  border-radius: 30px;
+}
+
+.pago_entrega {
+  font-size: 20px;
+}
+
+.pago_datos {
+  width: 50%;
+  margin-left: 5%;
+  padding: 50px5%;
+  box-sizing: border-box;
+}
+
+.formulario_de_pago {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.formulario_de_pago label {
+  font-size: 40px;
+}
+
+.formulario_de_pago input {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border: 0px;
+  padding: 0px15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+} */
