@@ -130,7 +130,7 @@ nav li a:hover{
 }
 
 .section_2{
-  padding -top: 10%;
+  padding-top: 10%;
   display: flex;   /* se quita para que mobile.css tome el control */
 }
 
