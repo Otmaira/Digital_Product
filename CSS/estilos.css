@@ -101,10 +101,6 @@ nav li a:hover{
   width: 300px;
 }
 
-.img_content{
-  text-align: center;
-}
-
 .content h1{    /* yo */
   text-align: center;
   color: var(--lightpurple4-color);
@@ -148,7 +144,7 @@ nav li a:hover{
 .more .content{
   opacity: 100%;
   padding: 5px;
-  width: 400px;
+  width: 300px;
   text-align: center;
 }
 
@@ -187,7 +183,6 @@ margin-left: auto;
 .mention .content{
   opacity: 100%;
   padding: 5px;
-  width: 300px;
   text-align: center;
 }
 
