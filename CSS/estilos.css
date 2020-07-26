@@ -82,7 +82,7 @@ nav li a:hover{
   background-position: center top;
   background-repeat: no-repeat;
 
-  /*height: 95px;  /*50px;  /* se quita para que mobile.css tome el control */
+  height: 95px;  /*50px;  /* se quita para que mobile.css tome el control */
 
 }
 
