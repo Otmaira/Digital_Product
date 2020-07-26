@@ -130,7 +130,7 @@ nav li a:hover{
 }
 
 .section_2{
-  padding: 10%;
+  padding -top: 10%;
   display: flex;   /* se quita para que mobile.css tome el control */
 }
 
@@ -144,7 +144,7 @@ nav li a:hover{
 .more .content{
   opacity: 100%;
   padding: 5px;
-  width: 300px;
+  width: 250px;
   text-align: center;
 }
 
